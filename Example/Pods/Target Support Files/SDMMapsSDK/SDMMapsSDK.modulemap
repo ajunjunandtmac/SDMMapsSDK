@@ -1,0 +1,6 @@
+framework module SDMMapsSDK {
+  umbrella header "SDMMapsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SDMMapsSDK_Example {
+  umbrella header "Pods-SDMMapsSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

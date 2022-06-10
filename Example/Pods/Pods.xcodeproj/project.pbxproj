@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077648E03BC0FAB686F3B0FBF56DA2A8 /* SDMMapsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D000F5D6AEF53C0DA9E55072D5EC18A /* SDMMapsSDK-dummy.m */; };
+		14B27A52A4425E316BA3B54DCF53892F /* Pods-SDMMapsSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E0B3E9368AF58ADA420ADE8ED50B69 /* Pods-SDMMapsSDK_Tests-dummy.m */; };
+		1A48375458DFB572F6F3414C06A4C6BE /* SDMMapsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A975FDF5A7B6B9044903D68D6C1EC3 /* SDMMapsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47AB9CEB851186CCA87AC5A2615E0FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A0508ED621B6256C5FD9932E1AA7A8E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B31C3EF0A5F26E28375B523D9785C130 /* Pods-SDMMapsSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7366B5DEADC72F81F3A21829631BFFA0 /* Pods-SDMMapsSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA2B133A05DCEA354167820AD5716E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D0513F8EC415AAB2644EAC6881BAB60C /* Pods-SDMMapsSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6A080091A414F26CC9D209E949F7 /* Pods-SDMMapsSDK_Example-dummy.m */; };
+		E727257928531A02006AE160 /* heresdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E727256C28531A02006AE160 /* heresdk.xcframework */; };
+		E727257A28531A02006AE160 /* HereMapViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727256D28531A02006AE160 /* HereMapViewService.swift */; };
+		E727257B28531A02006AE160 /* HereMap.h in Headers */ = {isa = PBXBuildFile; fileRef = E727256E28531A02006AE160 /* HereMap.h */; };
+		E727257C28531A03006AE160 /* HereMapViewTypeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727256F28531A02006AE160 /* HereMapViewTypeAdapter.swift */; };
+		E727257D28531A03006AE160 /* HereMapServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727257028531A02006AE160 /* HereMapServiceProvider.swift */; };
+		E727257E28531A03006AE160 /* SDMMapEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727257228531A02006AE160 /* SDMMapEngine.swift */; };
+		E727257F28531A03006AE160 /* SDMMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = E727257328531A02006AE160 /* SDMMaps.h */; };
+		E727258028531A03006AE160 /* SDMMapServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727257528531A02006AE160 /* SDMMapServiceProvider.swift */; };
+		E727258128531A03006AE160 /* SDMMapsCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E727257628531A02006AE160 /* SDMMapsCore.h */; };
+		E727258228531A03006AE160 /* SDMMapViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727257728531A02006AE160 /* SDMMapViewType.swift */; };
+		E727258328531A03006AE160 /* SDMMapViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727257828531A02006AE160 /* SDMMapViewService.swift */; };
+		F840E0D7D75E31F879A4EAC942F8DF48 /* Pods-SDMMapsSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D95462158959B540B8845E0842F212 /* Pods-SDMMapsSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25538BE0F2FE37F7D26F26D35696F992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D1EEC2BC8689D1311FD96075AF2E20;
+			remoteInfo = SDMMapsSDK;
+		};
+		39728D67BB0B2C18CF64E0B8E22E8A00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 317E2B1FF262D4DDF0700385EE67CFD0;
+			remoteInfo = "Pods-SDMMapsSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AD6A080091A414F26CC9D209E949F7 /* Pods-SDMMapsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDMMapsSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		0C7C5A88D115328C87E6C510A2D9C4B9 /* Pods-SDMMapsSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SDMMapsSDK_Tests"; path = Pods_SDMMapsSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1408714F5BD152260FCDBC90AFC4969E /* SDMMapsSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDMMapsSDK-prefix.pch"; sourceTree = "<group>"; };
+		14638986BA8EEA6BEA16075B6E13EDAC /* Pods-SDMMapsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDMMapsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		219AE911FA578D447552D39538A37663 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		23D95462158959B540B8845E0842F212 /* Pods-SDMMapsSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDMMapsSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		384D0F5ADB8BB01E91BD9EAC6FED986B /* Pods-SDMMapsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDMMapsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3A08ACA660053B33956D4EDC08F8C58B /* Pods-SDMMapsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDMMapsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E3191D80B267FC92080CE1DF8671AB4 /* Pods-SDMMapsSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDMMapsSDK_Example.modulemap"; sourceTree = "<group>"; };
+		43FF1D5EA9DD9FC41D0C09F99C82C243 /* SDMMapsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDMMapsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		493FEAD2BE35595A0351BC36FA32DA36 /* Pods-SDMMapsSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDMMapsSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E480395B74EE90B12A1851A3305DDC4 /* Pods-SDMMapsSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SDMMapsSDK_Example"; path = Pods_SDMMapsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F2CCCC9E3D9654D8B2A1D7AD7BCFA4 /* Pods-SDMMapsSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDMMapsSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6B5BDAEAC3DC86FA6F6C9841ED9F5A89 /* Pods-SDMMapsSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDMMapsSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7366B5DEADC72F81F3A21829631BFFA0 /* Pods-SDMMapsSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDMMapsSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		8375A1C000D28A5CBFC65FC856765140 /* Pods-SDMMapsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDMMapsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		85E0B3E9368AF58ADA420ADE8ED50B69 /* Pods-SDMMapsSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDMMapsSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		8979A4E69DAA5A9A564B21F66DFAAE63 /* SDMMapsSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDMMapsSDK.modulemap; sourceTree = "<group>"; };
+		8D000F5D6AEF53C0DA9E55072D5EC18A /* SDMMapsSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDMMapsSDK-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B88B1AA90137F6546054D77CC2A2A2 /* Pods-SDMMapsSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDMMapsSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		A2EE3BC7CDF31C3532AADB516BFBD543 /* SDMMapsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SDMMapsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A406DB3370FFA65F624E1B98D761BDFB /* Pods-SDMMapsSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDMMapsSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		A49538B7B701CF7C4E76AED4554E366D /* SDMMapsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDMMapsSDK.release.xcconfig; sourceTree = "<group>"; };
+		AB16F8348399B1E9D8BF667D45C81548 /* Pods-SDMMapsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDMMapsSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		AC2D6ACB0FA82F2A0AB37C78D7932E9D /* SDMMapsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDMMapsSDK-Info.plist"; sourceTree = "<group>"; };
+		B0A975FDF5A7B6B9044903D68D6C1EC3 /* SDMMapsSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDMMapsSDK-umbrella.h"; sourceTree = "<group>"; };
+		B3D0EFF59A5617AA6E358A78FE8A01B0 /* Pods-SDMMapsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDMMapsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD7C8C1D3D88F9F311DE80C3DB16A0C0 /* Pods-SDMMapsSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDMMapsSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1603343B0CAF38C1E180C6D52A02691 /* SDMMapsSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDMMapsSDK; path = SDMMapsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB3031F4801B0CC161A3320FD2F986E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E727256C28531A02006AE160 /* heresdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = heresdk.xcframework; sourceTree = "<group>"; };
+		E727256D28531A02006AE160 /* HereMapViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HereMapViewService.swift; sourceTree = "<group>"; };
+		E727256E28531A02006AE160 /* HereMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HereMap.h; sourceTree = "<group>"; };
+		E727256F28531A02006AE160 /* HereMapViewTypeAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HereMapViewTypeAdapter.swift; sourceTree = "<group>"; };
+		E727257028531A02006AE160 /* HereMapServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HereMapServiceProvider.swift; sourceTree = "<group>"; };
+		E727257228531A02006AE160 /* SDMMapEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDMMapEngine.swift; sourceTree = "<group>"; };
+		E727257328531A02006AE160 /* SDMMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMMaps.h; sourceTree = "<group>"; };
+		E727257528531A02006AE160 /* SDMMapServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDMMapServiceProvider.swift; sourceTree = "<group>"; };
+		E727257628531A02006AE160 /* SDMMapsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMMapsCore.h; sourceTree = "<group>"; };
+		E727257728531A02006AE160 /* SDMMapViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDMMapViewType.swift; sourceTree = "<group>"; };
+		E727257828531A02006AE160 /* SDMMapViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDMMapViewService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66A54FE38915C8E12294A63EDF1AC3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2B133A05DCEA354167820AD5716E05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A06EFFF4CB2C8FD9F05886DC137042D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E727257928531A02006AE160 /* heresdk.xcframework in Frameworks */,
+				47AB9CEB851186CCA87AC5A2615E0FFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5E74809587C68E27173A5279CBE5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0508ED621B6256C5FD9932E1AA7A8E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F116F64ED1B6616C1A9E0C172CAD3BB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3031F4801B0CC161A3320FD2F986E /* LICENSE */,
+				219AE911FA578D447552D39538A37663 /* README.md */,
+				A2EE3BC7CDF31C3532AADB516BFBD543 /* SDMMapsSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6260C158C525BC05F497D0122E2714A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE0BCAC8FE1F9DE87B218BD296BFDE95 /* SDMMapsSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6D9420B008DC7C84D7EEE7460406AD55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8979A4E69DAA5A9A564B21F66DFAAE63 /* SDMMapsSDK.modulemap */,
+				8D000F5D6AEF53C0DA9E55072D5EC18A /* SDMMapsSDK-dummy.m */,
+				AC2D6ACB0FA82F2A0AB37C78D7932E9D /* SDMMapsSDK-Info.plist */,
+				1408714F5BD152260FCDBC90AFC4969E /* SDMMapsSDK-prefix.pch */,
+				B0A975FDF5A7B6B9044903D68D6C1EC3 /* SDMMapsSDK-umbrella.h */,
+				43FF1D5EA9DD9FC41D0C09F99C82C243 /* SDMMapsSDK.debug.xcconfig */,
+				A49538B7B701CF7C4E76AED4554E366D /* SDMMapsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SDMMapsSDK";
+			sourceTree = "<group>";
+		};
+		7E2048E6782A1C32503F1763730402B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBCBC666CCC95935F7C1ED964CCDF57 /* Pods-SDMMapsSDK_Example */,
+				88873372AC56823FA97531706E6E50AF /* Pods-SDMMapsSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		88873372AC56823FA97531706E6E50AF /* Pods-SDMMapsSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A406DB3370FFA65F624E1B98D761BDFB /* Pods-SDMMapsSDK_Tests.modulemap */,
+				493FEAD2BE35595A0351BC36FA32DA36 /* Pods-SDMMapsSDK_Tests-acknowledgements.markdown */,
+				14638986BA8EEA6BEA16075B6E13EDAC /* Pods-SDMMapsSDK_Tests-acknowledgements.plist */,
+				85E0B3E9368AF58ADA420ADE8ED50B69 /* Pods-SDMMapsSDK_Tests-dummy.m */,
+				A0B88B1AA90137F6546054D77CC2A2A2 /* Pods-SDMMapsSDK_Tests-Info.plist */,
+				23D95462158959B540B8845E0842F212 /* Pods-SDMMapsSDK_Tests-umbrella.h */,
+				B3D0EFF59A5617AA6E358A78FE8A01B0 /* Pods-SDMMapsSDK_Tests.debug.xcconfig */,
+				384D0F5ADB8BB01E91BD9EAC6FED986B /* Pods-SDMMapsSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-SDMMapsSDK_Tests";
+			path = "Target Support Files/Pods-SDMMapsSDK_Tests";
+			sourceTree = "<group>";
+		};
+		8F5D58AFEDC93888E4312FE1D7957903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E480395B74EE90B12A1851A3305DDC4 /* Pods-SDMMapsSDK_Example */,
+				0C7C5A88D115328C87E6C510A2D9C4B9 /* Pods-SDMMapsSDK_Tests */,
+				D1603343B0CAF38C1E180C6D52A02691 /* SDMMapsSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6260C158C525BC05F497D0122E2714A7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8F5D58AFEDC93888E4312FE1D7957903 /* Products */,
+				7E2048E6782A1C32503F1763730402B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E727256B28531A02006AE160 /* HereMap */ = {
+			isa = PBXGroup;
+			children = (
+				E727256C28531A02006AE160 /* heresdk.xcframework */,
+				E727256D28531A02006AE160 /* HereMapViewService.swift */,
+				E727256E28531A02006AE160 /* HereMap.h */,
+				E727256F28531A02006AE160 /* HereMapViewTypeAdapter.swift */,
+				E727257028531A02006AE160 /* HereMapServiceProvider.swift */,
+			);
+			name = HereMap;
+			path = SDMMapsSDK/Classes/HereMap;
+			sourceTree = "<group>";
+		};
+		E727257128531A02006AE160 /* SDMMaps */ = {
+			isa = PBXGroup;
+			children = (
+				E727257228531A02006AE160 /* SDMMapEngine.swift */,
+				E727257328531A02006AE160 /* SDMMaps.h */,
+			);
+			name = SDMMaps;
+			path = SDMMapsSDK/Classes/SDMMaps;
+			sourceTree = "<group>";
+		};
+		E727257428531A02006AE160 /* SDMMapsCore */ = {
+			isa = PBXGroup;
+			children = (
+				E727257528531A02006AE160 /* SDMMapServiceProvider.swift */,
+				E727257628531A02006AE160 /* SDMMapsCore.h */,
+				E727257728531A02006AE160 /* SDMMapViewType.swift */,
+				E727257828531A02006AE160 /* SDMMapViewService.swift */,
+			);
+			name = SDMMapsCore;
+			path = SDMMapsSDK/Classes/SDMMapsCore;
+			sourceTree = "<group>";
+		};
+		FE0BCAC8FE1F9DE87B218BD296BFDE95 /* SDMMapsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E727256B28531A02006AE160 /* HereMap */,
+				E727257128531A02006AE160 /* SDMMaps */,
+				E727257428531A02006AE160 /* SDMMapsCore */,
+				1F116F64ED1B6616C1A9E0C172CAD3BB /* Pod */,
+				6D9420B008DC7C84D7EEE7460406AD55 /* Support Files */,
+			);
+			name = SDMMapsSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FFBCBC666CCC95935F7C1ED964CCDF57 /* Pods-SDMMapsSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3E3191D80B267FC92080CE1DF8671AB4 /* Pods-SDMMapsSDK_Example.modulemap */,
+				6B5BDAEAC3DC86FA6F6C9841ED9F5A89 /* Pods-SDMMapsSDK_Example-acknowledgements.markdown */,
+				CD7C8C1D3D88F9F311DE80C3DB16A0C0 /* Pods-SDMMapsSDK_Example-acknowledgements.plist */,
+				04AD6A080091A414F26CC9D209E949F7 /* Pods-SDMMapsSDK_Example-dummy.m */,
+				61F2CCCC9E3D9654D8B2A1D7AD7BCFA4 /* Pods-SDMMapsSDK_Example-frameworks.sh */,
+				AB16F8348399B1E9D8BF667D45C81548 /* Pods-SDMMapsSDK_Example-Info.plist */,
+				7366B5DEADC72F81F3A21829631BFFA0 /* Pods-SDMMapsSDK_Example-umbrella.h */,
+				8375A1C000D28A5CBFC65FC856765140 /* Pods-SDMMapsSDK_Example.debug.xcconfig */,
+				3A08ACA660053B33956D4EDC08F8C58B /* Pods-SDMMapsSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-SDMMapsSDK_Example";
+			path = "Target Support Files/Pods-SDMMapsSDK_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		157E7AC35EF1FE5A9DBDC36D6EBFD666 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F840E0D7D75E31F879A4EAC942F8DF48 /* Pods-SDMMapsSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488358608C80DC56BA57ECF857771654 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A48375458DFB572F6F3414C06A4C6BE /* SDMMapsSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2476726684A253566D2525721BFEDC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E727257F28531A03006AE160 /* SDMMaps.h in Headers */,
+				E727258128531A03006AE160 /* SDMMapsCore.h in Headers */,
+				B31C3EF0A5F26E28375B523D9785C130 /* Pods-SDMMapsSDK_Example-umbrella.h in Headers */,
+				E727257B28531A02006AE160 /* HereMap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25AB68F2686BBED76BBDC561E01A8F20 /* Pods-SDMMapsSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CD0502F956F6DB4DAB6B06B688AFC0 /* Build configuration list for PBXNativeTarget "Pods-SDMMapsSDK_Tests" */;
+			buildPhases = (
+				157E7AC35EF1FE5A9DBDC36D6EBFD666 /* Headers */,
+				EEDB1DE840A9C92D03589ECA01C68B2B /* Sources */,
+				66A54FE38915C8E12294A63EDF1AC3DF /* Frameworks */,
+				3945A05963EF1F4D1E89E08D00B79E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7DD789AD06875538EA6DAE0267CACD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDMMapsSDK_Tests";
+			productName = Pods_SDMMapsSDK_Tests;
+			productReference = 0C7C5A88D115328C87E6C510A2D9C4B9 /* Pods-SDMMapsSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		317E2B1FF262D4DDF0700385EE67CFD0 /* Pods-SDMMapsSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35EB6849360D1CD88DD36938611A9E06 /* Build configuration list for PBXNativeTarget "Pods-SDMMapsSDK_Example" */;
+			buildPhases = (
+				E2476726684A253566D2525721BFEDC1 /* Headers */,
+				D614BDA37DF30851E8553C5167581C16 /* Sources */,
+				6A06EFFF4CB2C8FD9F05886DC137042D /* Frameworks */,
+				EDF095A6DFFA3717D0DA798CFF766111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3535F40D04119B7007A435C023531DD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDMMapsSDK_Example";
+			productName = Pods_SDMMapsSDK_Example;
+			productReference = 5E480395B74EE90B12A1851A3305DDC4 /* Pods-SDMMapsSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6D1EEC2BC8689D1311FD96075AF2E20 /* SDMMapsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954CE30FB93ADEF45F0EAFD1F881E275 /* Build configuration list for PBXNativeTarget "SDMMapsSDK" */;
+			buildPhases = (
+				488358608C80DC56BA57ECF857771654 /* Headers */,
+				912E8CDF3DE33E571B6FE54854642FD1 /* Sources */,
+				AE5E74809587C68E27173A5279CBE5E8 /* Frameworks */,
+				D553F67D8ADC0EBE44FFF5ABF8009BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDMMapsSDK;
+			productName = SDMMapsSDK;
+			productReference = D1603343B0CAF38C1E180C6D52A02691 /* SDMMapsSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8F5D58AFEDC93888E4312FE1D7957903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				317E2B1FF262D4DDF0700385EE67CFD0 /* Pods-SDMMapsSDK_Example */,
+				25AB68F2686BBED76BBDC561E01A8F20 /* Pods-SDMMapsSDK_Tests */,
+				D6D1EEC2BC8689D1311FD96075AF2E20 /* SDMMapsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3945A05963EF1F4D1E89E08D00B79E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D553F67D8ADC0EBE44FFF5ABF8009BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF095A6DFFA3717D0DA798CFF766111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		912E8CDF3DE33E571B6FE54854642FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077648E03BC0FAB686F3B0FBF56DA2A8 /* SDMMapsSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D614BDA37DF30851E8553C5167581C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E727258328531A03006AE160 /* SDMMapViewService.swift in Sources */,
+				D0513F8EC415AAB2644EAC6881BAB60C /* Pods-SDMMapsSDK_Example-dummy.m in Sources */,
+				E727257D28531A03006AE160 /* HereMapServiceProvider.swift in Sources */,
+				E727258028531A03006AE160 /* SDMMapServiceProvider.swift in Sources */,
+				E727258228531A03006AE160 /* SDMMapViewType.swift in Sources */,
+				E727257A28531A02006AE160 /* HereMapViewService.swift in Sources */,
+				E727257E28531A03006AE160 /* SDMMapEngine.swift in Sources */,
+				E727257C28531A03006AE160 /* HereMapViewTypeAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDB1DE840A9C92D03589ECA01C68B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B27A52A4425E316BA3B54DCF53892F /* Pods-SDMMapsSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3535F40D04119B7007A435C023531DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDMMapsSDK;
+			target = D6D1EEC2BC8689D1311FD96075AF2E20 /* SDMMapsSDK */;
+			targetProxy = 25538BE0F2FE37F7D26F26D35696F992 /* PBXContainerItemProxy */;
+		};
+		E7DD789AD06875538EA6DAE0267CACD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SDMMapsSDK_Example";
+			target = 317E2B1FF262D4DDF0700385EE67CFD0 /* Pods-SDMMapsSDK_Example */;
+			targetProxy = 39728D67BB0B2C18CF64E0B8E22E8A00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B4AFC09FAC14CC1C72892EE15DAD849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384D0F5ADB8BB01E91BD9EAC6FED986B /* Pods-SDMMapsSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDMMapsSDK_Tests/Pods-SDMMapsSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDMMapsSDK_Tests/Pods-SDMMapsSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B0ACC19A24138F0E31004E77F5C4C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D0EFF59A5617AA6E358A78FE8A01B0 /* Pods-SDMMapsSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDMMapsSDK_Tests/Pods-SDMMapsSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDMMapsSDK_Tests/Pods-SDMMapsSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D63254FA23D54CFE4635FC710531017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43FF1D5EA9DD9FC41D0C09F99C82C243 /* SDMMapsSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDMMapsSDK/SDMMapsSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDMMapsSDK/SDMMapsSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDMMapsSDK/SDMMapsSDK.modulemap";
+				PRODUCT_MODULE_NAME = SDMMapsSDK;
+				PRODUCT_NAME = SDMMapsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82BBF50D7BE8BF7FA5F8C4FED2905556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A08ACA660053B33956D4EDC08F8C58B /* Pods-SDMMapsSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDMMapsSDK_Example/Pods-SDMMapsSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDMMapsSDK_Example/Pods-SDMMapsSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B30B4202EBA0C84B9B089448B6224125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8375A1C000D28A5CBFC65FC856765140 /* Pods-SDMMapsSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDMMapsSDK_Example/Pods-SDMMapsSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDMMapsSDK_Example/Pods-SDMMapsSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD630EE1AF42E068AED33BBBA6014DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49538B7B701CF7C4E76AED4554E366D /* SDMMapsSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDMMapsSDK/SDMMapsSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDMMapsSDK/SDMMapsSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDMMapsSDK/SDMMapsSDK.modulemap";
+				PRODUCT_MODULE_NAME = SDMMapsSDK;
+				PRODUCT_NAME = SDMMapsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35EB6849360D1CD88DD36938611A9E06 /* Build configuration list for PBXNativeTarget "Pods-SDMMapsSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30B4202EBA0C84B9B089448B6224125 /* Debug */,
+				82BBF50D7BE8BF7FA5F8C4FED2905556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CD0502F956F6DB4DAB6B06B688AFC0 /* Build configuration list for PBXNativeTarget "Pods-SDMMapsSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0ACC19A24138F0E31004E77F5C4C8E /* Debug */,
+				3B4AFC09FAC14CC1C72892EE15DAD849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954CE30FB93ADEF45F0EAFD1F881E275 /* Build configuration list for PBXNativeTarget "SDMMapsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D63254FA23D54CFE4635FC710531017 /* Debug */,
+				CD630EE1AF42E068AED33BBBA6014DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

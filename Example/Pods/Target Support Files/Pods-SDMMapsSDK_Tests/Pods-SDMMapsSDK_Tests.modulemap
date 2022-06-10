@@ -1,0 +1,6 @@
+framework module Pods_SDMMapsSDK_Tests {
+  umbrella header "Pods-SDMMapsSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
